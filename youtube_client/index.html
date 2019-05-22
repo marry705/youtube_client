@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="video, youtubeAPI, video for users">
+        <meta name="description" content="Find your video"> 
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" type="image/x-icon" href="img/unnamed.jpg">
+        <title>Find your video</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1>find video</h1>
+        <section> 
+            <label for="request">
+                <i class="fas fa-search" aria-hidden="true"></i>
+                <input id="request" type="text" placeholder="What do you want?">
+            </label>
+        </section>
+        <section class="slider">
+        </section>
+        <section class="slide_controlers">
+            <a href="#" id="left" class="buttons"><i class="far fa-hand-point-left"></i></a>
+            <div class="slide_points"></div>
+            <a href="#" id="right" class="buttons"><i class="far fa-hand-point-right"></i></a>
+        </section>
+        
+        <template>
+            <div class="slide">
+                <div class="slide_head">
+                    <a  target="_blank" href="#">Video Title</a>
+                </div>
+                <div class="slide_info">
+                    <ul>
+                        <li>users</li>
+                        <li>data</li>
+                        <li>views</li>
+                    </ul>
+                </div>
+                <div class="slide_desc">
+                    <p>About video</p>
+                </div>
+            </div>
+        </template>
+
+
+        <script src='./main.bundle.js'></script>
+    </body>
+</html>
